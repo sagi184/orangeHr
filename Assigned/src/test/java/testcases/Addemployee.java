@@ -36,7 +36,7 @@ public class Addemployee extends Setup {
 	@BeforeTest
 	public void start() {
 
-	driver = s.Browser("Chrome");
+	driver = s.Browser("Firefox");
 	extent = new ExtentReports(System.getProperty("user.dir") + "\\Reports\\advancereport.html",
 			Boolean.valueOf(true));
 	extent.addSystemInfo("HostName", "Sagar");
@@ -119,7 +119,7 @@ public class Addemployee extends Setup {
 	driver.findElement(Savebutton).click();
         Utility.captureScreenshot(driver, "image " + m+4);
 		
-		
 	}
+	
 	
 }
