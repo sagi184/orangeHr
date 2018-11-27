@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Assigned" duration-ms="61247" started-at="2018-11-27T06:14:27Z" finished-at="2018-11-27T06:15:28Z">
+    <groups>
+    </groups>
+    <test name="Editing Empdetails" duration-ms="61247" started-at="2018-11-27T06:14:27Z" finished-at="2018-11-27T06:15:28Z">
+      <class name="testcases.Education_information">
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Education_information@1794d431]" name="login" duration-ms="4793" started-at="2018-11-27T11:44:59Z" finished-at="2018-11-27T11:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Pimtab1()[pri:0, instance:testcases.Education_information@1794d431]" name="Pimtab1" duration-ms="1177" started-at="2018-11-27T11:45:04Z" finished-at="2018-11-27T11:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pimtab1 -->
+        <test-method status="PASS" signature="SearchEmp()[pri:0, instance:testcases.Education_information@1794d431]" name="SearchEmp" duration-ms="12790" started-at="2018-11-27T11:45:05Z" finished-at="2018-11-27T11:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchEmp -->
+        <test-method status="PASS" signature="AddQualification()[pri:0, instance:testcases.Education_information@1794d431]" name="AddQualification" duration-ms="8662" started-at="2018-11-27T11:45:18Z" finished-at="2018-11-27T11:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQualification -->
+        <test-method status="PASS" signature="EditQualification()[pri:0, instance:testcases.Education_information@1794d431]" name="EditQualification" duration-ms="1927" started-at="2018-11-27T11:45:27Z" finished-at="2018-11-27T11:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditQualification -->
+      </class> <!-- testcases.Education_information -->
+      <class name="testcases.Addemployee">
+        <test-method status="PASS" signature="start()[pri:0, instance:testcases.Addemployee@598067a5]" name="start" is-config="true" duration-ms="7018" started-at="2018-11-27T11:44:27Z" finished-at="2018-11-27T11:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="start()[pri:0, instance:testcases.Education_information@1794d431]" name="start" is-config="true" duration-ms="6384" started-at="2018-11-27T11:44:34Z" finished-at="2018-11-27T11:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Addemployee@598067a5]" name="login" duration-ms="4412" started-at="2018-11-27T11:44:41Z" finished-at="2018-11-27T11:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="AddAdminQualification()[pri:0, instance:testcases.Addemployee@598067a5]" name="AddAdminQualification" duration-ms="10862" started-at="2018-11-27T11:44:45Z" finished-at="2018-11-27T11:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAdminQualification -->
+        <test-method status="PASS" signature="AddEmp()[pri:0, instance:testcases.Addemployee@598067a5]" name="AddEmp" duration-ms="3205" started-at="2018-11-27T11:44:56Z" finished-at="2018-11-27T11:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmp -->
+      </class> <!-- testcases.Addemployee -->
+    </test> <!-- Editing Empdetails -->
+  </suite> <!-- Assigned -->
+</testng-results>

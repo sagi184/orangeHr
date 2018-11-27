@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Assigned]">
+  <test name="Editing Empdetails(failed)">
+    <classes>
+      <class name="testcases.Education_information">
+        <methods>
+          <include name="EditQualification"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- testcases.Education_information -->
+      <class name="testcases.Addemployee">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- testcases.Addemployee -->
+    </classes>
+  </test> <!-- Editing Empdetails(failed) -->
+</suite> <!-- Failed suite [Assigned] -->

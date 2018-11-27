@@ -1,0 +1,8 @@
+<suite name="Assigned">
+ <test name="Editing Empdetails">
+ <classes>
+ <class name="testcases.Addemployee" priority="1"/>
+ <class name="testcases.Education_information" priority="2"/> 
+ </classes>
+ </test>
+</suite>
